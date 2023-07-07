@@ -27,6 +27,7 @@ body {
 }
 .header > h1 {
     font-size: var(--heading-font-size);
+    text-align: center;
 }
 
 .main-container {
