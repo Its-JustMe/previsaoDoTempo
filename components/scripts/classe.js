@@ -1,5 +1,4 @@
 "use strict";
-// Arquivo que contém a classe principal do programa
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -38,10 +37,6 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 var exports = {};
 Object.defineProperty(exports, "__esModule", { value: true });
-/**
- * Classe que carrega as informações da API e implementa
- * a interface WeatherInfo
-*/
 var WeatherMap = /** @class */ (function () {
     function WeatherMap(cidade) {
         this.city = cidade;
@@ -69,13 +64,6 @@ var WeatherMap = /** @class */ (function () {
         enumerable: false,
         configurable: true
     });
-    // Métodos
-    /**
-     * Método público assíncrono getWeatherData realiza uma
-     * requisição para a API OpenWeather, e caso obtenha uma resposta,
-     * é feita uma chamada para outra função da classe, loadWeatherInfo()
-     * passando os dados da API como parâmetros
-    */
     WeatherMap.prototype.getWeatherData = function () {
         return __awaiter(this, void 0, void 0, function () {
             var warning, e_1;
