@@ -1,0 +1,53 @@
+.input-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5em;
+    padding: 3px 1em 1em 1em;
+}
+.input-container > input {
+    background: none;
+    border-bottom: 2px solid var(--text-color);
+    padding: 0.2em;
+}
+.input-container > input::placeholder, .input-container > input, .input-container > button {
+    color: var(--text-color);
+    font-size: var(--text-color);
+    position: relative;
+}
+.input-container > input::placeholder {
+    font-size: 1;
+}
+.input-container > button {
+    background: none;
+    border: 3px solid var(--border-color);
+    border-radius: .4em;
+    font-weight: bold;
+
+    padding: 0.2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+    transition: all .6s;
+}
+.input-container > button::before {
+    content: '';
+    display: block;
+
+    position: absolute;
+        top: 0;
+        left: 0;
+
+    width: 0;
+    height: 100%;
+    background-color: var(--btn-color);
+    z-index: -1;
+
+    transition: width .5s;
+}
+.input-container > button:hover::before {
+    width: 100%;
+}
+.input-container > input:focus { outline: 0 }

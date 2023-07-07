@@ -1,0 +1,61 @@
+@import './reset.css';
+@import './inputs.css';
+@import './table.css';
+
+body {
+    background-image: 
+    linear-gradient(to right, var(--dark-blue-bg), var(--light-blue-bg)),
+        url('https://www.pixel4k.com/wp-content/uploads/2018/10/blue-sky-summer-4k_1540136323.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: var(--text-color);
+
+    min-height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.header {
+    margin-top: 10vh;
+}
+.header > h1 {
+    font-size: var(--heading-font-size);
+}
+
+.main-container {
+    width: var(--box-width);
+    height: var(--box-height);
+    border-radius: .5em;
+
+    background-color: var(--dark-blue-bg);
+    backdrop-filter: blur(.5em);
+
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+
+    visibility: hidden;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-info > span {
+    font-size: var(--text-font-size);
+    text-align: center;
+}
+.weather-info > h2 {
+    font-size: var(--subheading-font-size);
+}

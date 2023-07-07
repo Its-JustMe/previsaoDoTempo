@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!--Meta Tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Links: CSS-->
+    <link rel="stylesheet" href="./components/styles/index.css" type="text/css">
+
+    <title>Previsão do Tempo</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Previsão do Tempo</h1>
+    </header>
+
+    <main>
+        <div class="main-container">
+            <div class="input-container">
+                <input type="text" name="cidade" id="input-cidade" placeholder="Informe uma cidade:">
+                <button type="button" name="search" id="btn-search">Pesquisar</button>
+            </div>
+
+            <div class="weather-info">
+                <span id="warning"></span>
+                <h2 id="cidade"></h2>
+
+                <table>
+                    <tr>
+                        <td class="temperatura">
+                            <span id="temperatura"></span>
+                        </td>
+                        <td>
+                            <img src="" alt="Ícone representando o clima">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <!--Links: JavaScript-->
+    <script type="module" src="./components/scripts/script.js"></script>
+</body>
+</html>

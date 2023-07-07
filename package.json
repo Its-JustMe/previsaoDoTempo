@@ -1,0 +1,15 @@
+{
+  "name": "previsaodotempo",
+  "version": "1.0.0",
+  "description": "Um projeto de previsão de tempo, utilizando a API OpenWeatherMap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.4"
+  }
+}
