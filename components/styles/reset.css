@@ -25,6 +25,6 @@
     --text-font-size: clamp(2vw, 1.3em, 1em);
 
     /*Largura e altura*/
-    --box-width: clamp(10vw, 31.25em, 21.8em);
+    --box-width: clamp(13vw, 31.25em, 21.8em);
     --box-height: 20em;
 }
