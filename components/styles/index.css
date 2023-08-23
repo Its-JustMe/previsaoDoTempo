@@ -32,7 +32,7 @@ body {
 
 .main-container {
     width: var(--box-width);
-    height: var(--box-height);
+    height: auto;
     border-radius: .5em;
 
     background-color: var(--dark-blue-bg);
