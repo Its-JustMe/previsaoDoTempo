@@ -3,7 +3,8 @@ table, tr, td {
     border-radius: 2px;
 }
 td {
-    padding: 0.5em;
+    width: 00%;
+    padding: 0.3em;
     text-align: center;
 }
 td.temperatura {
