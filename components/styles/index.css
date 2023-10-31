@@ -47,7 +47,7 @@ body {
 .weather-info {
     display: flex;
     flex-direction: column;
-    gap: 1.2em;
+    gap: .6em;
 
     visibility: hidden;
 
