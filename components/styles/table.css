@@ -1,9 +1,9 @@
 table, tr, td {
+    width: 100%;
     border: 2px solid var(--light-blue-bg);
     border-radius: 2px;
 }
 td {
-    width: 00%;
     padding: 0.3em;
     text-align: center;
 }
