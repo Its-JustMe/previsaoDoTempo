@@ -50,6 +50,7 @@ body {
     gap: .6em;
 
     visibility: hidden;
+    width: 100%;
 
     align-items: center;
     justify-content: center;
