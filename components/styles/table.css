@@ -1,17 +1,16 @@
 table, tr, td {
-    width: 100%;
     border: 2px solid var(--light-blue-bg);
     border-radius: 2px;
 }
 td {
     padding: 0.3em;
     text-align: center;
+    width: 50%;
 }
 td.temperatura {
     background-color: #34447f57;
     font-weight: bold;
     font-size: var(--subheading-font-size);
-    width: 100px;
 }
 td > img {
     filter: drop-shadow(6px 6px 12px var(--border-color))
