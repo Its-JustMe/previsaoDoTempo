@@ -5,7 +5,7 @@ table, tr, td {
 td {
     padding: 0.3em;
     text-align: center;
-    width: 50%;
+    width: 100%;
 }
 td.temperatura {
     background-color: #34447f57;
